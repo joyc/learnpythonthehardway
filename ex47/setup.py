@@ -4,16 +4,16 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project47',
+    'description': 'My Project',
     'author': 'joyc',
     'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
+    'download_url': 'Where to download it.'
     'author_email': 'rockbee@gmail.com',
-    'version': '0.1',
+    'version': '0.1'
     'install_requires': ['nose'],
     'packages': ['ex47'],
     'script': [],
-    'name': 'ex47'
+    'name': 'ex47-project'
 }
 
 setup(**config)

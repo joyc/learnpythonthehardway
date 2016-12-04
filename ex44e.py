@@ -25,11 +25,10 @@ class Child(object):
 	
 	def altered(self):
 		print "CHILD, BEFORE OTHER altered()"
-		super(Child, self).altered()
+		self.other.altered()
 		print "CHILD, AFTER OTHER altered()"
 		
 son = Child()
-
 
 son.implicit()
 son.override()
